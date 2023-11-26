@@ -1,0 +1,5 @@
+#custom
+data/*
+model_autoencoder/*
+models/*
+output/*
