@@ -1,14 +1,28 @@
-## Reminder
+## Introduction
 
-ST-GCN has transferred to [MMSkeleton](https://github.com/open-mmlab/mmskeleton),
-and keep on developing as an flexible open source toolbox for skeleton-based human understanding.
-You are welcome to migrate to new MMSkeleton.
-Custom networks, data loaders and checkpoints of old st-gcn are compatible with MMSkeleton.
-If you want to use old ST-GCN, please refer to [OLD_README.md](./OLD_README.md).
+A project for the course "anomaly detection" at the National Cheng Kung University.
 
-This code base will soon be not maintained and exists as a historical artifact to supplement our AAAI papers on:
+## Resource
 
-> **Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition**, Sijie Yan, Yuanjun Xiong and Dahua Lin, AAAI 2018. [[Arxiv Preprint]](https://arxiv.org/abs/1801.07455)
+Openpose python API [https://github.com/CMU-Perceptual-Computing-Lab/openpose]
+ST-GCN [https://github.com/yysijie/st-gcn]
+UR Fall Detection Dataset [http://fenix.ur.edu.pl/~mkepski/ds/uf.html]
+A Framework for Anomaly Identification Applied on Fall Detection [https://ieeexplore.ieee.org/document/9439497]
 
-For more recent works please checkout MMSkeleton.
-  
+
+
+## Environment
+
+opencv-python             4.8.1.78      
+
+python                    3.7.0          
+
+torch                     1.10.1+cu111       
+
+torchaudio                0.10.1+cu111         
+
+torchvision               0.11.2            
+
+## Data
+
+
