@@ -30,4 +30,8 @@ torchvision               0.11.2
 1. Use the extracted features to train the autoencoder.
 1. Use the trained autoencoder to detect the anomaly.
 
+## Video Example
+
+[![Watch the video](https://img.youtube.com/vi/-YKewWzZIZY/maxresdefault.jpg)](https://www.youtube.com/watch?v=-YKewWzZIZY)
+
 
