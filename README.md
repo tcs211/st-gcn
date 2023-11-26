@@ -23,6 +23,11 @@ torchaudio                0.10.1+cu111
 
 torchvision               0.11.2            
 
-## Data
+## Experiment steps
+
+1. Use openpose to extract the skeleton of the UR Fall Detection Dataset.
+1. Use ST-GCN kinects pre-trained model to extract the skeleton features.
+1. Use the extracted features to train the autoencoder.
+1. Use the trained autoencoder to detect the anomaly.
 
 
