@@ -1,3 +1,17 @@
+## 實驗方法
+1. 下載code: git clone https://github.com/tcs211/st-gcn-anomaly-detect.git
+2. 下載資料及訓練好的模型，下載點列於課堂demo投影片中
+3. 安裝必要的Resource，必要安裝openpose python API
+4. 修改04_run_pipeline.ipynb中的 openpose 路徑
+```
+dir_path = r'D:\Projects\anomaly\openpose_full\openpose\build'
+sys.path.append(dir_path + r'\python\openpose\Release')
+os.environ['PATH']  = os.environ['PATH'] + ';' + dir_path + r'\x64\Release;' +  dir_path + r'\bin;'
+model_path = r'D:\Projects\anomaly\openpose_full\openpose\models'
+```
+5.直接執行04_run_pipeline.ipynb所有code即能重現
+
+
 ## Introduction
 
 A project for the course "AI for anomaly detection" at the National Cheng Kung University.
